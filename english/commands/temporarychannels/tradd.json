@@ -1,0 +1,25 @@
+{
+    "info": {
+        "name": "/tradd",
+        "oposite": "/tremove",
+        "permissions": "Administrator from the channel",
+        "category": "Temporary Channels",
+        "description": "Add an user or a role to your temporary channel, allowing them to view and join it.",
+        "usage": "/tradd <users or roles>",
+        "examples": "/tradd @bieeu @moderation - The user `bieeu` and the role `moderation` will be added in the channel."
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Add an user or role in your channel.",
+        "options": {
+            "members": "The users or roles that you want to add."
+        },
+        "oposite": {
+            "description": "🧷 Temporary Channels • Remove an user or role from your channel.",
+            "options": {
+                "members": "The users or roles that you want to remove."
+            }
+        }
+    },
+    "membersAdded": "You have added ${0} in your channel! To remove them, use **/tremove**.",
+    "membersRemoved": "You have removed ${0} from your channel!"
+}

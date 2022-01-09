@@ -1,0 +1,26 @@
+{
+    "info": {
+        "name": "/trblock",
+        "oposite": "/trunblock",
+        "permissions": "Administrator from the channel",
+        "category": "Temporary Channels",
+        "description": "Deny an user or a role of view and join in your channel. If the member is already in the channel, he will be kicked.",
+        "usage": "/trblock <users or roles>",
+        "examples": "/trblock @sheiks - The role `sheiks` will be denined to join in your channel and all the members with this role that is already in the channel will be kicked."
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Deny an user or role of join your channel.",
+        "options": {
+            "members": "The users or roles that you want to block.",
+            "hide": "If you want to hide the channel from the user."
+        },
+        "oposite": {
+            "description":"🧷 Temporary Channels • Unblock an user or role from your channel.",
+            "options": {
+                "members": "The users or roles that you want to unblock."
+            }
+        }
+    },
+    "membersBlocked": "You have denied ${0} of join in your channel! To undeny them, use **/trunblock**.",
+    "membersUnblocked": "You have unblocked ${0} from your channel!"
+}

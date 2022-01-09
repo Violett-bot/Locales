@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "/trhide",
+        "oposite": "/trunhide",
+        "permissions": "Administrator from the channel",
+        "category": "Temporary Channels",
+        "description": "Hide your channel. No one in the server will be able to view your channel, except who have permission.",
+        "usage": "/trhide",
+        "examples": null
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Remove the visibility from your channel.",
+        "oposite": {
+            "description": "🧷 Temporary Channels • Add the visibility from your channel again."
+        }
+    },
+    "channelHided": "You have removed the visibility from your channel! Use **/trunhide** to add it again.",
+    "channelUnhided": "You have added the visibility from your channel again!"
+}
