@@ -1,0 +1,15 @@
+{
+    "info": {
+        "name": "/getbadge",
+        "oposite": null,
+        "permissions": null,
+        "category": "Insígnias",
+        "description": "Ganhe uma insígnia de edição limitada. Você pode ver todas as insígnias aqui:",
+        "usage": "/getbadge",
+        "examples": null
+    },
+    "register": {
+        "description": "🔮 Insígnias • Ganhe uma insígnia de edição limitada."
+    },
+    "newBadge": "🎁 Parabéns ${0}! Uma nova insígnia foi adicionada à sua coleção, para ver todas suas insígnias, use o comando **/badges**."
+}

@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/tremove",
+        "oposite": "/tradd",
+        "permissions": ["Administrador TR"],
+        "category": "Canais Temporários",
+        "description": "Remove um usuário ou cargo do seu canal.",
+        "usage": "/tremove <usuário(s) ou cargo(s)>",
+        "examples": [
+            "/tremove @bieeu - O usuário `bieeu` será removido do seu canal.",
+            "/tremove 919664522267070534 @bieeu - O cargo de ID `919664522267070534` e o usuário `bieeu` serão removidos do seu canal.",
+            "/tremove 919664522267070534 862740130385494027 286166598048284683 @bieeu - Todos esses membros serão removidos do seu canal."
+        ]
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Remove um usuário ou cargo do seu canal.",
+        "options": {
+            "members": "Os usuarios e/ou cargos que você deseja remover."
+        }
+    },
+    "membersRemoved": "Você removeu ${0} do seu canal!"
+}

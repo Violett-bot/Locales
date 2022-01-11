@@ -1,0 +1,30 @@
+{
+    "info": {
+        "name": "/lolprofile",
+        "oposite": null,
+        "permissions": null,
+        "category": "League of Legends",
+        "description": "Mostra um perfil de um jogador do lol. O perfil contêm informações como: winrate, ranks, top maestria, etc...",
+        "usage": "/lolprofile <servidor> <nick>",
+        "examples": [
+            "/lolprofile BR1 badda bing - Mostra o perfil do jogador `badda bing` no servidor `Brasileiro`.",
+            "/lolprofile KR Faker - Mostra o perfil do jogador `Faker` no servidor `Coreano`."
+        ]
+    },
+    "register": {
+        "description": "🎮 League of Legends • Mostra o perfil de um jogador.",
+        "options": {
+            "user": "O servidor onde o jogador está registrado.",
+            "username": "O nick do jogador."
+        }
+    },
+    "lastGames": "Últimos jogos",
+    "levelRegion": "Level/Região",
+    "topMastery": "Campeões com mais maestria",
+    "soloq": "Informações da Soloq",
+    "flex": "Informações da Flex",
+    "defeats": "Derrotas:",
+    "wins": "Vítorias:",
+    "points": "Pontos de liga:",
+    "winrate": "Taxa de vitória:"
+}

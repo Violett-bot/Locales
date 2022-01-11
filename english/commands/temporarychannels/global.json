@@ -1,0 +1,7 @@
+{
+    "notAdmin": "You need to be administrator or owner from this channel to use this command.",
+    "notOwner": "Only the owner from this channel can use this command.",
+    "notConnected": "You are not connected to any temporary channel.",
+    "simultaneousChannel": "{0}, you can create just `2` simultaneous channels.",
+    "limitReached": "The name of the channel can't exceed `20` characters."
+}

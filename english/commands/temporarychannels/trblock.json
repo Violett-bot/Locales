@@ -2,25 +2,22 @@
     "info": {
         "name": "/trblock",
         "oposite": "/trunblock",
-        "permissions": "Administrator from the channel",
+        "permissions": ["TR Administrator"],
         "category": "Temporary Channels",
-        "description": "Deny an user or a role of view and join in your channel. If the member is already in the channel, he will be kicked.",
+        "description": "Deny an user or a role of join in your channel. If the member or any member with the role is already in the channel, he will be kicked.",
         "usage": "/trblock <users or roles>",
-        "examples": "/trblock @sheiks - The role `sheiks` will be denined to join in your channel and all the members with this role that is already in the channel will be kicked."
+        "examples": [
+            "/trblock @sheiks - The role `sheiks` will be denined to join in your channel and all the members with this role that is already in the channel will be kicked.",
+            "/trblock 669975205325570048 @naju - The role of ID `669975205325570048` and the user `naju` will be blocked from your channel.",
+            "/trblock 919664522267070534 862740130385494027 286166598048284683 @naju - All these members will be blocked from your channel."
+        ]
     },
     "register": {
-        "description": "🧷 Temporary Channels • Deny an user or role of join your channel.",
+        "description": "🧷 Temporary Channels • Deny an user or role of join in your channel.",
         "options": {
             "members": "The users or roles that you want to block.",
             "hide": "If you want to hide the channel from the user."
-        },
-        "oposite": {
-            "description":"🧷 Temporary Channels • Unblock an user or role from your channel.",
-            "options": {
-                "members": "The users or roles that you want to unblock."
-            }
         }
     },
-    "membersBlocked": "You have denied ${0} of join in your channel! To undeny them, use **/trunblock**.",
-    "membersUnblocked": "You have unblocked ${0} from your channel!"
+    "membersBlocked": "You blocked ${0} of from channel! To unblock them, use **/trunblock**."
 }

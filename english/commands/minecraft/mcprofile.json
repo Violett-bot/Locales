@@ -1,0 +1,25 @@
+{
+    "info": {
+        "name": "/minecraftprofile",
+        "oposite": null,
+        "permissions": null,
+        "category": "Minecraft",
+        "description": "Display a minecraft profile. The profile has informations such as: the nick history, the skin, the UUID, etc...",
+        "usage": "/minecraftprofile <nick>",
+        "examples": [
+            "/minecraftprofile Smilezera - Display the profile of the player `Smilezera`."
+        ]
+    },
+    "register": {
+        "description": "🎮 Minecraft • Display a profile of a player.",
+        "options": {
+            "nick": "The nickname of the player." 
+        }
+    },
+    "embed": {
+        "title": "Minecraft profile",
+        "download": "Download skin",
+        "historyName": "Nick history",
+        "head": "Command to get the head"
+    }
+}

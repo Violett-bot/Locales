@@ -1,0 +1,15 @@
+{
+    "info": {
+        "name": "/trlock",
+        "oposite": "/trunlock",
+        "permissions": ["Administrador TR"],
+        "category": "Canais Temporários",
+        "description": "Tranca o seu canal. Ninguém no servidor poderá se conectar nele, exceto quem tem permissão",
+        "usage": "/trlock ",
+        "examples": null
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Tranca seu canal."
+    },
+    "channelLocked": "Você trancou seu canal. Para destrancá-lo, use **/trunlock**.\nCaso você queira o canal inacessível apenas para um usuário ou cargo específico, use **/trblock**."
+}

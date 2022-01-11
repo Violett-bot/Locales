@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/tremoveadmin",
+        "oposite": "/trsetadmin",
+        "permissions": ["Dono TR"],
+        "category": "Canais Temporários",
+        "description": "Remove um administrador do seu canal.",
+        "usage": "/tremoveadmin <usuário(s) ou cargo(s)>",
+        "examples": [
+            "/tremoveadmin @flash - O usuário `flash` será removido da administração do seu canal.",
+            "/tremoveadmin 919664522267070534 @flash - O cargo de ID `919664522267070534` e o usuário `flash` serão removidos da administração do seu canal.",
+            "/tremoveadmin 919664522267070534 862740130385494027 286166598048284683 @flash - Todos esses membros serão removidos da administração do seu canal."
+        ]
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Remove um administrador do seu canal.",
+        "options": {
+            "member": "Os usuários e/ou cargos que você deseja remover."
+        }
+    },
+    "administratorsRemoved": "Você removeu ${0} da administração do seu canal."
+}

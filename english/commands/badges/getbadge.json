@@ -1,0 +1,15 @@
+{
+    "info": {
+        "name": "/getbadge",
+        "oposite": null,
+        "permissions": null,
+        "category": "Badge",
+        "description": "Get a limited badge. You can view all the badges here: ",
+        "usage": "/getbadge",
+        "examples": null
+    },
+    "register": {
+        "description": "🔮 Badges • Get a limited badge."
+    },
+    "newBadge": "🎁 Congratulations ${0}! A new badge was added to your collection! To view all your badges, use the command **/badges**."
+}

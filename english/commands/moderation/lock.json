@@ -1,0 +1,23 @@
+{
+    "info": {
+        "name": "/lock",
+        "oposite": "/unlock",
+        "permissions": ["Manage Channels"],
+        "category": "Moderation",
+        "description": "Lock a text or voice channel. Denying all the members of send messages or join the channel.",
+        "usage": "/lock [channel]",
+        "examples": [
+            "/lock - Lock the channel where the command was used.",
+            "/lock #Join Here - Lock the voice channel `Join Here`.",
+            "/lock 919664522267070534 - Lock the text channel of the ID `919664522267070534`."
+        ]
+    },
+    "register": {
+        "description": "🔨 Moderation • Lock a text or voice channel.",
+        "options": {
+            "channel": "The channel that you want to lock."
+        }
+    },
+    "channelLocked": "The channel {0} was locked by {1}.",
+    "unsuportedChannel": "Is only possible to lock and unlock text and voice channels."
+}

@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/trdelete",
+        "oposite": null,
+        "permissions": ["Administrador"],
+        "category": "Moderação",
+        "description": "Deleta todos os canais temporários criados no seu servidor e move todos os membros para um novo canal, caso deseje.",
+        "usage": "/trdelete [canal]",
+        "examples": [
+            "/trdelete - Deleta todos os canais temporários criados no seu servidor.",
+            "/trdelete 929774135620550736 - Deleta todos os canais temporários e move os membros para o canal de ID `929774135620550736`.",
+            "/trdelete #Putaria - Deleta todos os canais temporários e move os membros para o canal `Putaria`."
+        ]
+    },
+    "register": {
+        "description": "🔨 Moderação • Deleta todos os canais temporários e move os membros para outro canal, caso deseje.",
+        "options": {
+            "newchannel": "O canal para qual você deseja mover os usuários."
+        }
+    },
+    "unsuportedChannel": "Só é possível mover os usuários para um canal de voz!"
+}

@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "/minecrafthead",
+        "oposite": null,
+        "permissions": null,
+        "category": "Minecraft",
+        "description": "Mostra a cabeça de uma skin.",
+        "usage": "/minecrafthead <nick>",
+        "examples": [
+            "/minecrafthead Weark - Mostra a cabeça da skin do jogador `Weark`."
+        ]
+    },
+    "register": {
+        "description": "🎮 Minecraft • Mostra a cabeça de uma skin.",
+        "options": {
+            "nick": "O nickname do jogador."
+        }
+    }
+}

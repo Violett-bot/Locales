@@ -1,0 +1,7 @@
+{
+    "notAdmin": "Você precisa ser administrador ou dono do canal para poder usar este comando.",
+    "notOwner": "Somente o dono do canal pode usar este comando.",
+    "notConnected": "Você não está conectado à um canal temporário.",
+    "simultaneousChannel": "{0}, você só pode criar até `2` canais temporários.",
+    "limitReached": "O nome do canal não pode ultrapassar `20` caractéres."
+}

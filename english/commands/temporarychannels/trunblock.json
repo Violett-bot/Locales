@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/trunblock",
+        "oposite": "/trblock",
+        "permissions": ["TR Administrator"],
+        "category": "Temporary Channels",
+        "description": "Unblock a user or role from your channel.",
+        "usage": "/trunblock <users or roles>",
+        "examples": [
+            "/trunblock @sheiks - The role `sheiks` will be unblocked from your channel.",
+            "/trunblock 669975205325570048 @naju - The role of ID `669975205325570048` and the user `naju` will be unblocked from your channel.",
+            "/trunblock 919664522267070534 862740130385494027 286166598048284683 @naju - All these members will be unblocked from your channel."
+        ]
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Unblock an user or role from your channel.",
+        "options": {
+            "members": "The users or roles that you want to unblock."
+        }
+    },
+    "membersUnblocked": "You unblocked ${0} from your channel!"
+}

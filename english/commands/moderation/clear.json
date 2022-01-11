@@ -1,0 +1,24 @@
+{
+    "info": {
+        "name": "/clear",
+        "oposite": null,
+        "permissions": ["Manage Messages"],
+        "category": "Moderation",
+        "description": "Clear a number of messages of a channel or user.",
+        "usage": "/clear <number> [user]",
+        "examples": [
+            "/clear 30 - Delete the last `30` messages of the channel where the command was used.",
+            "/clear 50 @thoyz - Delete the last `50` messages of the user `thoyz`.",
+            "/clear 100 286166598048284683 - Delete the last `100` messages of the user of ID `286166598048284683`."
+        ]
+    },
+    "register": {
+        "description": "🔨 Moderation • Clear a number of messages of a channel or user.",
+        "options": {
+            "number": "The number of messages that you want to delete.",
+            "user": "The user that you want to delete the messages, if you want."
+        }
+    },
+    "messagesDeleted": "{0} have deleted {1} messages of {2}.",
+    "unsuportedChannel": "Is only possible to clear messages of text channels or users."
+}

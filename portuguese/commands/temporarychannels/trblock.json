@@ -1,0 +1,23 @@
+{
+    "info": {
+        "name": "/trblock",
+        "oposite": "/trunblock",
+        "permissions": ["Administrador TR"],
+        "category": "Canais Temporários",
+        "description": "Proíbe um usuário ou cargo de entrar no seu canal. Caso o usuário ou algum usuário com o cargo esteja no canal, ele será expulso.",
+        "usage": "/trblock <usuário(s) ou cargo(s)>",
+        "examples": [
+            "/trblock @sheiks - O cargo `sheiks` será proibido de entrar no seu canal e todo os membros com o cargo que já estão conectados ao canal serão kickados.",
+            "/trblock 669975205325570048 @naju - O cargo de ID `669975205325570048` e o usuário `naju` serão bloqueados do seu canal.",
+            "/trblock 919664522267070534 862740130385494027 286166598048284683 @naju - Todos esses membros serão bloqueados do seu canal."
+        ]
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Proíbe um usuário ou cargo de entrar no seu canal.",
+        "options": {
+            "members": "Os usuários e/ou cargos que você deseja bloquear.",
+            "hide": "Se você deseja esconder o canal do usuário."
+        }
+    },
+    "membersBlocked": "Você bloqueou ${0} do seu canal! Para desbloqueá-lo(s), use **/trunblock**."
+}

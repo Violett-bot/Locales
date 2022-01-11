@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/trsetadmin",
+        "oposite": "/tremoveadmin",
+        "permissions": ["TR Owner"],
+        "category": "Temporary Channels",
+        "description": "Add an administrator in your channel. Allowing them to use all the other commands of channel administration.",
+        "usage": "/trsetadmin <users or roles>",
+        "examples": [
+            "/trsetadmin @flash - The user `flash` will be added in your channel as administrator.",
+            "/trsetadmin 919664522267070534 @flash - The role of ID `919664522267070534` and `flash` will be added in your channel as administrator.",
+            "/trsetadmin 919664522267070534 862740130385494027 286166598048284683 @flash - All these members will be added in your channel as administrator."
+        ]
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Add an user or role in your channel as administrator.",
+        "options": {
+            "member": "The users or roles that you want to add."
+        }
+    },
+    "administratorsAdded": "You added ${0} as administrator in your channel. To remove them, use **/tremoveadmin**."
+}

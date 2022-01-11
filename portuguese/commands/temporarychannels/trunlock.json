@@ -1,0 +1,15 @@
+{
+    "info": {
+        "name": "/trunlock",
+        "oposite": "/trlock",
+        "permissions": ["Administrador TR"],
+        "category": "Canais Temporários",
+        "description": "Destranca seu canal.",
+        "usage": "/trunlock ",
+        "examples": null
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Destranca seu canal."
+    },
+    "channelUnlocked": "Você destrancou o seu canal!"
+}

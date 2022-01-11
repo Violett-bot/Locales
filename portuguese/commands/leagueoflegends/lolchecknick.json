@@ -1,0 +1,23 @@
+{
+    "info": {
+        "name": "/lolchecknick",
+        "oposite": null,
+        "permissions": null,
+        "category": "League of Legends",
+        "description": "Mostra o tempo de disponibilidade de um nick.",
+        "usage": "/lolchecknick <servidor> <nick>",
+        "examples": [
+            "/lolchecknick BR1 badda boom - Mostra o tempo de disponibilidade do nick `badda boom` no servidor `Brasileiro`.",
+            "/lolchecknick KR tching tchong - Mostra o tempo de disponibilidade do nick `tching tchong` no servidor `Coreano`."
+        ]
+    },
+    "register": {
+        "description": "🎮 League of Legends • Mostra o tempo de disponibilidade de um nick.",
+        "options": {
+            "server": "O servidor onde o nick está registrado.",
+            "nick": "O nick que você deseja ver."
+        }
+    },
+    "doesntExist": "O nick **{0}** não existe, isso significa que o nick está disponível para uso.",
+    "availableTime": "O nick **{0}** ficara disponível em **{1}** dias caso continue inativo."
+}

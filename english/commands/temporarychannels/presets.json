@@ -1,0 +1,35 @@
+{
+    "info": {
+        "name": "/presets",
+        "oposite": null,
+        "permissions": null,
+        "category": "Temporary Channels",
+        "description": "Display your default configuration of temporary channels. With presets, you can set all configurations that you want in your channel when it is created. Such as the name, the members, etc...",
+        "usage": "/presets",
+        "examples": null
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Display your default configurations of temporary channels."
+    },
+    "presetsNotFound": "You still don't have a profile of default configuration of temporary channels. Click on the reaction below if you want to create one.",
+    "presetsCreated": "Your profile of configuration was created succesfully! Use the command again to configure your profile.",
+    "presetsDeleted": "Your presets was deleted succesfully!",
+    "limitReached": "You can just create 2 presets. To create more one, delete other or get premium: <coming soon> .",
+    "toDelete": "To delete your presets, click on \u200B 🚫.",
+    "whatName": "What will be the name of your channels?",
+    "willBeLocked": "Now your temporary channels will be locked automatically.",
+    "willBeHided": "Now your temporary channels will be hided automatically.",
+    "addMember": "Who do you want to add in your temporary channels? Ping the user or role or send their ID.",
+    "removeMember": "Who do you want to remove from your temporary channels? Ping the user or role or send their ID.",
+    "clickOn": "Click on ✅ to add a member or on ❌ to remove.",
+    "embedFields": {
+        "title": "Presets",
+        "footer": "In this server, these settings will be seted automatically when you create a new temporary channel.",
+        "channelsName": "📄 Name of the channels",
+        "locked": "🔒 Channel locked",
+        "hided": "🔗 Channel hided",
+        "members": "👥 Members added",
+        "admins": "👑 Administrators",
+        "membersBlocked": "❌ Members blocked"
+    }
+}

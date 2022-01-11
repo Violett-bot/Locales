@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "/minecraftskin",
+        "oposite": null,
+        "permissions": null,
+        "category": "Minecraft",
+        "description": "Mostra a skin de um jogador do Minecraft.",
+        "usage": "/minecraftskin <nick>",
+        "examples": [
+            "/minecraftskin yShad - Mostra a skin do jogador `yShad`."
+        ]
+    },
+    "register": {
+        "description": "🎮 Minecraft • Mostra a skin de um jogador.",
+        "options": {
+            "nick": "O nickname do jogador."
+        }
+    }
+}

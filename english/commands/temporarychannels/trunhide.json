@@ -1,0 +1,15 @@
+{
+    "info": {
+        "name": "/trunhide",
+        "oposite": "/trhide",
+        "permissions": ["TR Administrator"],
+        "category": "Temporary Channels",
+        "description": "Unhide your channel, adding to it the visibility.",
+        "usage": "/trunhide",
+        "examples": null
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Add the visibility to your channel again"
+    },
+    "channelUnhided": "You added the visibility to your channel again!"
+}

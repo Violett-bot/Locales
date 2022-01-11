@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/tremoveadmin",
+        "oposite": "/trsetadmin",
+        "permissions": ["TR Owner"],
+        "category": "Temporary Channels",
+        "description": "Remove an administrator from your channel.",
+        "usage": "/tremoveadmin <users or roles>",
+        "examples": [
+            "/tremoveadmin @flash - The user `flash` will be removed from your channel's administration.",
+            "/tremoveadmin 919664522267070534 @flash - The role of ID `919664522267070534` and `flash` will be removed from your channel's administration.",
+            "/tremoveadmin 919664522267070534 862740130385494027 286166598048284683 @flash - All these members will be removed from your channel's administration."
+        ]
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Remove an administrator from your channel.",
+        "options": {
+            "member": "The users or roles that you want to remove."
+        }
+    },
+    "administratorsRemoved": "You removed ${0} from your channel's administration."
+}

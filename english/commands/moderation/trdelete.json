@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/trdelete",
+        "oposite": null,
+        "permissions": ["Administrator"],
+        "category": "Moderation",
+        "description": "Delete all the temporary channels in your server, and move the members to a new channel, if you want.",
+        "usage": "/trdelete [channel]",
+        "examples": [
+            "/trdelete - Delete all the temporary channels created in your server.",
+            "/trdelete 929774135620550736 - Delete all the temporary channels and move all the users to the channel of ID `929774135620550736`.",
+            "/trdelete #Party - Delete all the temporary channels and move all the users to the channel `Party`."
+        ]
+    },
+    "register": {
+        "description": "🔨 Moderation • Delete all the temporary channels and move the members to a new channel, if you want.",
+        "options": {
+            "newchannel": "The channel that you want to move the users."
+        }
+    },
+    "unsuportedChannel": "Is only possible to move the users to a voice channel!"
+}

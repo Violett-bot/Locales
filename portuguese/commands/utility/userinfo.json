@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "/userinfo",
+        "oposite": null,
+        "permissions": null,
+        "category": "Utilidade",
+        "description": "Mostra as suas informações nesse servidor ou a de outro usuário. Como: seus cargos, data de entrada, etc...",
+        "usage": "/userinfo [usuário]",
+        "examples": "/userinfo @saulo - Mostra as informações do usuário `saulo` neste servidor."
+    },
+    "register": {
+        "description": "📜 Utilidade • Mostra as suas informações nesse servidor ou a de outro usuário."
+    },
+    "embedFields": {
+        "owner": "👑 Dono",
+        "region": "🌎 Região",
+        "count": "👥 Quantidade de Membros",
+        "creation": "📅 Criado em",
+        "joining": "🔔 Entrei aqui em"
+    }
+}

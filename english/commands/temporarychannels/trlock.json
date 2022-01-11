@@ -1,0 +1,15 @@
+{
+    "info": {
+        "name": "/trlock",
+        "oposite": "/trunlock",
+        "permissions": ["TR Administrator"],
+        "category": "Temporary Channels",
+        "description": "Lock your channel. Nobody in the server will be able to join in your channel, except who have permission.",
+        "usage": "/trlock ",
+        "examples": null
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Lock your channel."
+    },
+    "channelLocked": "You locked your channel! To unlock it, use **/trunlock**.\nIf you want the channel inaccessible only for a user or role, use **/trblock**."
+}

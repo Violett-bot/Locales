@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/tradd",
+        "oposite": "/tremove",
+        "permissions": ["Administrador TR"],
+        "category": "Canais Temporários",
+        "description": "Adiciona um usuário ou cargo no seu canal. Permitindo-os entrar e visualizar o canal.",
+        "usage": "/tradd <usuário(s) ou cargo(s)>",
+        "examples": [
+            "/tradd @bieeu - O usuário `bieeu` será adicionado no seu canal.",
+            "/tradd 919664522267070534 @bieeu - O cargo de ID `919664522267070534` e o usuário `bieeu` serão adicionados no seu canal.",
+            "/tradd 919664522267070534 862740130385494027 286166598048284683 @bieeu - Todos esses membros serão adicionados no seu canal."
+        ]
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Adiciona um usuário ou cargo no seu canal.",
+        "options": {
+            "members": "Os usuários e/ou cargos que você deseja adicionar."
+        }
+    },
+    "membersAdded": "Você adicionou ${0} no seu canal! Para removê-lo(s), use **/tremove**."
+}

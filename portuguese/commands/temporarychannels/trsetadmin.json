@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/trsetadmin",
+        "oposite": "/tremoveadmin",
+        "permissions": ["Dono TR"],
+        "category": "Canais Temporários",
+        "description": "Adiciona um usuário ou cargo como administrador ao seu canal. Permitindo-os usar qualquer outro comando de administração de canal.",
+        "usage": "/trsetadmin <usuário(s) ou cargo(s)>",
+        "examples": [
+            "/trsetadmin @flash - O usuário `flash` será adicionado ao seu canal como administrador.",
+            "/trsetadmin 919664522267070534 @flash - O cargo de ID `919664522267070534` e o usuário `flash` serão adicionados no seu canal como administrador.",
+            "/trsetadmin 919664522267070534 862740130385494027 286166598048284683 @flash - Todos esses membros serão adicionados ao seu canal como administrador."
+        ]
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Adiciona um usuário ou cargo no seu canal como administrador.",
+        "options": {
+            "member": "Os usuários e/ou cargos que você deseja remover."
+        }
+    },
+    "administratorsAdded": "Você adicionou ${0} como administrador no seu canal. Para removê-los, use **/tremoveadmin**."
+}

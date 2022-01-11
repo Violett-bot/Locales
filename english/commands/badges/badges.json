@@ -1,0 +1,29 @@
+{
+    "info": {
+        "name": "/badges",
+        "oposite": null,
+        "permissions": null,
+        "category": "Badges",
+        "description": "Display your or another user's badges. All the badges are global and can be negociated with other users. You can view all the badges here:",
+        "usage": "/badges [user]",
+        "examples": [
+            "/badges - Display your badges.",
+            "/badges @duda - Display the badges of the user `duda`."
+        ]
+    },
+    "register": {
+        "description": "🔮 Badges • Display your or another user badges.",
+        "options": {
+            "user": "The user that you want to view the badges."
+        }
+    },
+    "anyBadge": "You still don't have any badge. Conquer your badges interacting with the bot and the community.",
+    "alreadyHave": "Ups, I think I already gived you this gift, can I say \"I love you\" instead? I love you 💖.",
+    "embed": {
+        "acquisition": "📅 Acquisition",
+        "negociable": "{0} Negociable",
+        "description": "📃 Description",
+        "belongs": "Belongs to",
+        "page": "Page"
+    }
+}

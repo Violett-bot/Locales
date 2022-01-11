@@ -1,0 +1,13 @@
+{
+    "errors": {
+        "userNotFound": "Don't was possible to find the user with the nick **${0}**",
+        "dataNotFound": "Don't was possible to find any data from this user.",
+        "permissionsRemoved": "Someoned has been removed the permissions necessary to make your request. Please give me the `Administrator` permission so I can work normally.",
+        "oneMemberNotFound": "One of the informed users wasn't found. Make sure that any number or random character was sent or if you have sent an ID, that the ID is correct.",
+        "onlyGuilds": "This command is only available in the guilds.",
+        "unavailableCommand": "This command is temporarialy unavailable.",
+        "permissionsNeeded": "You need the `${0}` permission to use this command.",
+        "notEnabled": "The temporary channels system is not enabled. Use the command **/trsetup** to enable it."
+    },
+    "finished": "Finished! 😊"
+}

@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "/userinfo",
+        "oposite": null,
+        "permissions": null,
+        "category": "Utility",
+        "description": "Display your or another user informations inside this server. Such as: your roles, your joining date, etc...",
+        "usage": "/userinfo [user]",
+        "examples": "/userinfo @saulo - Display the informations of the user `saulo` inside this server."
+    },
+    "register": {
+        "description": "📜 Utility • Display your or another user informations inside this server."
+    },
+    "embedFields": {
+        "owner": "👑 Owner",
+        "region": "🌎 Region",
+        "count": "👥 Member count",
+        "creation": "📅 Created at",
+        "joining": "🔔 Joined here at"
+    }
+}

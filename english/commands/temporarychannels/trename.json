@@ -2,11 +2,14 @@
     "info": {
         "name": "/trename",
         "oposite": null,
-        "permissions": "Administrator from the channel",
+        "permissions": ["TR Administrator"],
         "category": "Temporary Channels",
         "description": "Rename your temporary channel",
-        "usage": "/trename <name> - The name can't exceed `20` characters.",
-        "examples": "/trename Rosé I love you 💖 - Changes the name of your channel to `Rosé I love you 💖`"
+        "usage": "/trename <name> * The name can't exceed `20` characters.",
+        "examples": [
+            "/trename Rosé I love you 💖 - Changes the name of your channel to `Rosé I love you 💖`",
+            "/trename 트와이스 💖 - Changes the name of your channel to `트와이스 💖`"
+        ]
     },
     "register": {
         "description": "🧷 Temporary Channels • Rename your channel.",
@@ -14,5 +17,5 @@
             "name": "The new name of the channel."
         }
     },
-    "channelRenamed": "You have renamed your channel to ${0}!"
+    "channelRenamed": "You renamed your channel to ${0}!"
 }

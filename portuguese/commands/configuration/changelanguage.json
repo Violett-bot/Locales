@@ -1,0 +1,20 @@
+{
+    "info": {
+        "name": "/changelanguage",
+        "oposite": null,
+        "permissions": ["Administrador"],
+        "category": "Configuração",
+        "description": "Altera minha língua neste servidor. Você também pode alterar minha língua somente para você usando o comando **/changemylanguage**.",
+        "usage": "/changelanguage <língua>",
+        "examples": [
+            "/changelanguage portuguese - Altera a língua do bot para `português`."
+        ]
+    },
+    "register": {
+        "description": "⚙️ Configuração • Altera minha língua neste servidor.",
+        "options": {
+            "language": "A língua que você deseja."
+        }
+    },
+    "languageChanged": "Você alterou minha língua para ${0}"
+}

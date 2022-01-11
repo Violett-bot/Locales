@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "/serverinfo",
+        "oposite": null,
+        "permissions": null,
+        "category": "Utility",
+        "description": "Display the informations of this server. Such as: date of creation, boost level, icon and banner, etc...",
+        "usage": "/serverinfo",
+        "examples": null
+    },
+    "register": {
+        "description": "📜 Utility • Display the informations of this server."
+    },
+    "embedFields": {
+        "owner": "👑 Owner",
+        "region": "🌎 Region",
+        "count": "👥 Member count",
+        "creation": "📅 Created at",
+        "joining": "🔔 Joined here at"
+    }
+}

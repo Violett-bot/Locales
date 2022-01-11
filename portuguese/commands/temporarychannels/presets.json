@@ -1,0 +1,35 @@
+{
+    "info": {
+        "name": "/presets",
+        "oposite": null,
+        "permissions": null,
+        "category": "Canais Temporários",
+        "description": "Mostra as suas configurações padrões de canais temporários. Com as predefinições, você pode setar todas as configurações que você quer em seu canal quando ele é criado. Como o nome, os membros, etc...",
+        "usage": "/presets",
+        "examples": null
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Mostra suas configurações padrões de canais temporários."
+    },
+    "presetsNotFound": "Você ainda não possui um perfil de configurações padrões de canais temporários. Clique na reação abaixo caso queira criar um.",
+    "presetsCreated": "Seu perfil de configurações foi criado com sucesso! Use este comando novamente para configurá-lo.",
+    "presetsDeleted": "Suas predefinições foram deletadas com sucesso!",
+    "limitReached": "Você só pode criar 2 predefinições. Para criar mais um, delete um dos perfis ou compre premium: <em breve>",
+    "toDelete": "Para deletar suas predefinições, clique em \u200B 🚫.",
+    "whatName": "Qual será o nome dos seus canais?",
+    "willBeLocked": "Agora os seus canais irão ser trancados automaticamente.",
+    "willBeHided": "Agora os seus canais serão escondidos automaticamente.",
+    "addMember": "Quem você deseja adicionar aos seus canais temporários? Marque o usuário ou cargo ou passe seu ID.",
+    "removeMember": "Quem você deseja remover dos seus canais temporários? Marque o usuário ou cargo ou passe seu ID.",
+    "clickOn": "Clique em ✅ para adicionar um membro ou em ❌ para remover.",
+    "embedFields": {
+        "title": "Predefinições",
+        "footer": "Nesse servidor, essas configurações serão setadas automaticamente quando você criar um novo canal temporário.",
+        "channelsName": "📄 Nome dos canais",
+        "locked": "🔒 Canal trancado",
+        "hided": "🔗 Canal escondido",
+        "members": "👥 Membros adicionados",
+        "admins": "👑 Administradores",
+        "membersBlocked": "❌ Membros bloqueados"
+    }
+}

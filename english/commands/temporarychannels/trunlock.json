@@ -1,0 +1,15 @@
+{
+    "info": {
+        "name": "/trunlock",
+        "oposite": "/trlock",
+        "permissions": ["TR Administrator"],
+        "category": "Temporary Channels",
+        "description": "Unlock your channel.",
+        "usage": "/trunlock ",
+        "examples": null
+    },
+    "register": {
+        "description": "🧷 Temporary Channels • Unlock your channel."
+    },
+    "channelUnlocked": "You unlocked your channel!"
+}

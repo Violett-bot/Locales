@@ -1,0 +1,13 @@
+{
+    "errors": {
+        "userNotFound": "Não foi possível encontrar o usuário de nick **${0}**",
+        "dataNotFound": "Não foi possível encontrar nenhum dado deste jogador.",
+        "permissionsRemoved": "Algum membro removeu minhas permissões necessárias para eu realizar seu pedido. Por favor, me dê a permissão de `Administrador` para que eu possa realizar todas as tarefas normalmente.",
+        "oneMemberNotFound": "Um dos usuários passados não foi encontrado. Tenha certeza que nenhum número ou letra aleatório foi passado ou caso tenha passado um ID, que o ID esteja correto.",
+        "onlyGuilds": "Este comando só está disponível para servidores.",
+        "unavailableCommand": "Este comando está desabilitado temporariamente.",
+        "permissionsNeeded": "Você precisa da permissão de `{0}` para usar este comando.",
+        "notEnabled": "O sistema de canais temporários não está ativado. Use o comando **/trsetup** para ativá-lo."
+    },
+    "finished": "Prontinho! 😊"
+}

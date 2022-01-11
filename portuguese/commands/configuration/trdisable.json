@@ -1,0 +1,16 @@
+{
+    "info": {
+        "name": "/trdisable",
+        "oposite": "/trsetup",
+        "permissions": ["Administrador"],
+        "category": "Configuração",
+        "description": "Desabilita o sistema de canais temporários neste servidor.",
+        "usage": "/trdisable",
+        "examples": null
+    },
+    "register": {
+        "description": "⚙️ Configuração • Desabilita o sistema de canais temporários neste servidor."
+    },
+    "setupSystem": "Sistema de canais temporários desabilitado com sucesso!",
+    "alreadyActivated": "O sistema de canais temporários não está ativado. Para ativá-lo, use **/trsetup**."
+}

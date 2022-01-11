@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "/trunblock",
+        "oposite": "/trblock",
+        "permissions": ["Administrador TR"],
+        "category": "Canais Temporários",
+        "description": "Desbloqueia um usuário ou cargo do seu canal.",
+        "usage": "/trunblock <usuário(s) ou cargo(s)>",
+        "examples": [
+            "/trunblock @sheiks - O cargo `sheiks` será desbloqueado do seu canal.",
+            "/trunblock 669975205325570048 @naju - O cargo de ID `669975205325570048` e o usuário `naju` serão desbloqueados do seu canal.",
+            "/trunblock 919664522267070534 862740130385494027 286166598048284683 @naju - Todos esses membros serão desbloqueados do seu canal."
+        ]
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Desbloqueia um usuário ou cargo do seu canal.",
+        "options": {
+            "members": "Os usuários e/ou cargos que você deseja desbloquear."
+        }
+    },
+    "membersUnblocked": "Você desbloqueou ${0} do seu canal!"
+}

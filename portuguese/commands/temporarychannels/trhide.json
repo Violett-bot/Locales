@@ -1,0 +1,15 @@
+{
+    "info": {
+        "name": "/trhide",
+        "oposite": "/trunhide",
+        "permissions": ["Administrador TR"],
+        "category": "Canais Temporários",
+        "description": "Esconde seu canal. Ninguém no servidor poderá visualizar o canal, exceto quem tem permissão.",
+        "usage": "/trhide",
+        "examples": null
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Remove a visibilidade do seu canal."
+    },
+    "channelHided": "You removeu a visibilidade do seu canal! Use **/trunhide** para adicioná-la novamente."
+}

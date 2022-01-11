@@ -1,0 +1,14 @@
+{
+    "info": {
+        "name": "/avatar",
+        "oposite": null,
+        "permissions": null,
+        "category": "Utilidade",
+        "description": "Mostra o seu avatar ou o de outro usuário.",
+        "usage": "/avatar [usuário]",
+        "examples": "/avatar @hiury - Mostra o avatar do usuário `hiury`."
+    },
+    "register": {
+        "description": "📜 Utilidade • Mostra o seu avatar ou o de outro usuário."
+    }
+}

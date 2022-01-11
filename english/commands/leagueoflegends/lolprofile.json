@@ -1,0 +1,30 @@
+{
+    "info": {
+        "name": "/lolprofile",
+        "oposite": null,
+        "permissions": null,
+        "category": "League of Legends",
+        "description": "Display a profile of a League of Legends player. The profile has informations such as: ranks, winrate, top mastery, etc...",
+        "usage": "/lolprofile <server> <nick>",
+        "examples": [
+            "/lolprofile BR1 badda bing - Display the profile of the player `badda bing` in the `Brazilian` server.",
+            "/lolprofile KR Faker - Display the profile of the player `Faker` in the `Korean` server."
+        ]
+    },
+    "register": {
+        "description": "🎮 League of Legends • Display a profile of a League of Legends player.",
+        "options": {
+            "user": "The server where the player are registered.",
+            "username": "The nickname of the player."
+        }
+    },
+    "lastGames": "Last games",
+    "levelRegion": "Level/Region",
+    "topMastery": "Top mastery champions",
+    "soloq": "Soloq stats",
+    "flex": "Flex stats",
+    "defeats": "Defeats:",
+    "wins": "Wins:",
+    "points": "League Points:",
+    "winrate": "Winrate:"
+}

@@ -1,0 +1,29 @@
+{
+    "info": {
+        "name": "/badges",
+        "oposite": null,
+        "permissions": null,
+        "category": "Insígnias",
+        "description": "Mostra as suas insígnias ou as de outro usuário. Todas as ínsignias são globais e podem ser negociadas entre os usuários. Você pode ver todas as insígnias aqui:",
+        "usage": "/badges [usuário]",
+        "examples": [
+            "/badges - Mostra suas insígnias.",
+            "/badges @duda - Mostra as insígnias do usuário `duda`."
+        ]
+    },
+    "register": {
+        "description": "🔮 Insígnias • Mostra as suas insígnias ou as de outro usuário.",
+        "options": {
+            "user": "O usuário que você deseja ver as insígias."
+        }
+    },
+    "anyBadge": "Você ainda não possui nenhuma insígnia, conquiste insígnias interagindo com o bot e a comunidade.",
+    "alreadyHave": "Ups, eu acho que eu já te dei esse presente antes. Posso te dizer \"Te amo\" então? Te amo 💖.",
+    "embed": {
+        "acquisition": "📅 Aquisição",
+        "negociable": "{0} Negociável",
+        "description": "📃 Descrição",
+        "belongs": "Pertence à",
+        "page": "Página"
+    }
+}

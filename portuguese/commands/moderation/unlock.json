@@ -1,0 +1,23 @@
+{
+    "info": {
+        "name": "/unlock",
+        "oposite": "/lock",
+        "permissions": ["Gerenciar Canais"],
+        "category": "Moderação",
+        "description": "Destranca um canal de texto ou voz.",
+        "usage": "/unlock [canal]",
+        "examples": [
+            "/unlock - Destranca o canal onde o comando foi usado.",
+            "/unlock #Entre aqui - Destranca o canal de voz `Entre aqui`.",
+            "/unlock 919664522267070534 - Destranca o canal de ID `919664522267070534`."
+        ]
+    },
+    "register": {
+        "description": "🔨 Moderação • Destranca um canal de texto ou voz.",
+        "options": {
+            "channel": "O canal que você deseja destrancar."
+        }
+    },
+    "channelUnlocked": "O canal {0} foi destrancado por {1}.",
+    "unsuportedChannel": "Só é possível trancar canais de texto ou voz."
+}

@@ -1,0 +1,25 @@
+{
+    "info": {
+        "name": "/minecraftprofile",
+        "oposite": null,
+        "permissions": null,
+        "category": "Minecraft",
+        "description": "Mostra um perfil no Minecraft. O perfil contêm informações como: histórico de nicks, skin, UUID..",
+        "usage": "/minecraftprofile <nick>",
+        "examples": [
+            "/minecraftprofile Smilezera - Mostra o perfil do jogador `Smilezera`."
+        ]
+    },
+    "register": {
+        "description": "🎮 Minecraft • Mostra um perfil de um jogador.",
+        "options": {
+            "nick": "O nickname do jogador." 
+        }
+    },
+    "embed": {
+        "title": "Perfil no Minecraft",
+        "download": "Baixar Skin",
+        "historyName": "Histórico de nicks",
+        "head": "Comando para obter a cabeça"
+    }
+}

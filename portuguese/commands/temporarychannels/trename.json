@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "/trename",
+        "oposite": null,
+        "permissions": ["Administrador TR"],
+        "category": "Canais Temporários",
+        "description": "Renomeia seu canal.",
+        "usage": "/trename <nome> * O nome não pode ultrapassar `20` caractéres.",
+        "examples": [
+            "/trename Rosé eu te amo 💖 - Renomeia seu canal para `Rosé eu te amo 💖`",
+            "/trename 트와이스 💖 - Renomeia seu canal para `트와이스 💖`"
+        ]
+    },
+    "register": {
+        "description": "🧷 Canais Temporários • Renomeia seu canal.",
+        "options": {
+            "name": "O novo nome do canal."
+        }
+    },
+    "channelRenamed": "Você renomeou seu canal para ${0}!"
+}

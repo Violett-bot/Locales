@@ -1,0 +1,23 @@
+{
+    "info": {
+        "name": "/lock",
+        "oposite": "/unlock",
+        "permissions": ["Gerenciar Canais"],
+        "category": "Moderação",
+        "description": "Tranca um canal de texto ou voz. Impedindo todos os usuários do servidor de entrar ou de enviar mensagens naquele canal.",
+        "usage": "/lock [canal]",
+        "examples": [
+            "/lock - Tranca o canal onde o comando foi usado.",
+            "/lock #Entre aqui - Tranca o canal de voz `Entre aqui`.",
+            "/lock 919664522267070534 - Tranca o canal de texto de ID `919664522267070534`."
+        ]
+    },
+    "register": {
+        "description": "🔨 Moderação • Tranca um canal de texto ou voz.",
+        "options": {
+            "channel": "O canal que você deseja trancar."
+        }
+    },
+    "channelLocked": "O canal {0} foi trancado por {1}.",
+    "unsuportedChannel": "Só é possível trancar e destrancar canais de texto ou voz."
+}

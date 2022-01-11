@@ -1,0 +1,23 @@
+{
+    "info": {
+        "name": "/move",
+        "oposite": null,
+        "permissions": ["Administrador"],
+        "category": "Moderação",
+        "description": "Move todos os membros de um canal para outro. Caso você tenha selecionado uma categoria, todos os membros de todos os canais da categoria serão movidos.",
+        "usage": "/move <canalantigo> <canalnovo>",
+        "examples": [
+            "/move #Jogatina #Putaria - Move todos os membros do canal `Jogatina` para o canal `Putaria`.",
+            "/move #Canais de voz #Web Churras - Move todos os membros de todos os canais da categoria `Canais de voz` para o canal `Web Churras`.",
+            "/move 922257017828175942 913499995985047612 - Move todos os membros do canal de ID `922257017828175942` para o canal de ID `913499995985047612`."
+        ]
+    },
+    "register": {
+        "description": "🔨 Moderação • Move todos os membros de um canal ou categoria para outro.",
+        "options": {
+            "oldchannel": "O canal onde os membros estão.",
+            "newchannel": "O canal para onde os membros serão movidos."
+        }
+    },
+    "unsuportedChannel": "Só é possível mover membros de/para um canal de voz!"
+}
