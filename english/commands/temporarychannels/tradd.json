@@ -12,11 +12,5 @@
             "/tradd 919664522267070534 862740130385494027 286166598048284683 @bieeu - All these members will be added in your channel."
         ]
     },
-    "register": {
-        "description": "🧷 Temporary Channels • Add an user or role in your channel.",
-        "options": {
-            "members": "The users or roles that you want to add."
-        }
-    },
     "membersAdded": "You added ${0} in your channel! To remove them, use **/tremove**."
 }

@@ -10,11 +10,5 @@
             "/changelanguage portuguese - Altera a língua do bot para `português`."
         ]
     },
-    "register": {
-        "description": "⚙️ Configuração • Altera minha língua neste servidor.",
-        "options": {
-            "language": "A língua que você deseja."
-        }
-    },
     "languageChanged": "Você alterou minha língua para ${0}"
 }

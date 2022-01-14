@@ -11,11 +11,5 @@
             "/trename 트와이스 💖 - Renomeia seu canal para `트와이스 💖`"
         ]
     },
-    "register": {
-        "description": "🧷 Canais Temporários • Renomeia seu canal.",
-        "options": {
-            "name": "O novo nome do canal."
-        }
-    },
     "channelRenamed": "Você renomeou seu canal para ${0}!"
 }

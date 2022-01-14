@@ -8,9 +8,6 @@
         "usage": "/userinfo [usuário]",
         "examples": "/userinfo @saulo - Mostra as informações do usuário `saulo` neste servidor."
     },
-    "register": {
-        "description": "📜 Utilidade • Mostra as suas informações nesse servidor ou a de outro usuário."
-    },
     "embedFields": {
         "owner": "👑 Dono",
         "region": "🌎 Região",

@@ -8,8 +8,5 @@
         "usage": "/trlock ",
         "examples": null
     },
-    "register": {
-        "description": "🧷 Canais Temporários • Tranca seu canal."
-    },
     "channelLocked": "Você trancou seu canal. Para destrancá-lo, use **/trunlock**.\nCaso você queira o canal inacessível apenas para um usuário ou cargo específico, use **/trblock**."
 }

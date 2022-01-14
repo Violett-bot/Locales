@@ -8,9 +8,6 @@
         "usage": "/trsetup",
         "examples": null
     },
-    "register": {
-        "description": "⚙️ Configuration • Setup the temporary channels system in this server."
-    },
     "setupSystem": "Temporary channels system activated succesfully!",
     "alreadyActivated": "The temporary channels system is already activated. If you want another intance of temporary channels, get premium: <coming soon>"
 }

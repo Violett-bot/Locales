@@ -8,8 +8,5 @@
         "usage": "/trunlock ",
         "examples": null
     },
-    "register": {
-        "description": "🧷 Temporary Channels • Unlock your channel."
-    },
     "channelUnlocked": "You unlocked your channel!"
 }

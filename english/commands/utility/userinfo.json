@@ -8,9 +8,6 @@
         "usage": "/userinfo [user]",
         "examples": "/userinfo @saulo - Display the informations of the user `saulo` inside this server."
     },
-    "register": {
-        "description": "📜 Utility • Display your or another user informations inside this server."
-    },
     "embedFields": {
         "owner": "👑 Owner",
         "region": "🌎 Region",

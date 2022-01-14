@@ -8,9 +8,6 @@
         "usage": "/presets",
         "examples": null
     },
-    "register": {
-        "description": "🧷 Canais Temporários • Mostra suas configurações padrões de canais temporários."
-    },
     "presetsNotFound": "Você ainda não possui um perfil de configurações padrões de canais temporários. Clique na reação abaixo caso queira criar um.",
     "presetsCreated": "Seu perfil de configurações foi criado com sucesso! Use este comando novamente para configurá-lo.",
     "presetsDeleted": "Suas predefinições foram deletadas com sucesso!",

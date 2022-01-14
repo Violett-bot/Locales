@@ -8,8 +8,5 @@
         "usage": "/trunlock ",
         "examples": null
     },
-    "register": {
-        "description": "🧷 Canais Temporários • Destranca seu canal."
-    },
     "channelUnlocked": "Você destrancou o seu canal!"
 }

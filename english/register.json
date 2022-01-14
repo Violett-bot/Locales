@@ -1,0 +1,299 @@
+{
+    "Register": [
+        {
+            "name": "badges",
+            "description": "🔮 Badges • Display your or another user badges.",
+            "options": [{
+                "name": "user",
+                "description": "The user that you want to view the badges.",
+                "required": false,
+                "type": "USER" 
+            }]
+        },
+        {
+            "name": "getbadge",
+            "description": "🔮 Badges • Get a limited badge."
+        },
+        {
+            "name": "changelanguage",
+            "description": "⚙️ Configuration • Change my language in this server.",
+            "options": [{
+                "name": "language",
+                "description": "The language that you want.",
+                "required": true,
+                "type": "STRING",
+                "choices": [{
+                    "name": "portuguese",
+                    "value": "portuguese"
+                }, {
+                    "name": "english",
+                    "value": "english"
+                }]
+            }]
+        },
+        {
+            "name": "changemylanguage",
+            "description": "⚙️ Configuration • Change my language only for you.",
+            "options": [{
+                "name": "language",
+                "description": "The language that you want.",
+                "required": true,
+                "type": "STRING",
+                "choices": [{
+                    "name": "portuguese",
+                    "value": "portuguese"
+                }, {
+                    "name": "english",
+                    "value": "english"
+                }]
+            }]
+        },
+        {
+            "name": "trdisable",
+            "description": "⚙️ Configuration • Disable the temporary channels system in this server."
+        },
+        {
+            "name": "trsetup",
+            "description": "⚙️ Configuration • Setup the temporary channels system in this server."
+        },
+        {
+            "name": "lolchecknick",
+            "description": "🎮 League of Legends • Check a disponibility time from a nickname.",
+            "options": [{
+                "name": "server",
+                "description": "The server where the nick is registered.",
+                "required": true,
+                "type": "STRING"
+            }, {
+                "name": "nick",
+                "description": "The nick that you want to check.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "lolprofile",
+            "description": "🎮 League of Legends • Display the profile of a player",
+            "options": [{
+                "name": "server",
+                "description": "The server where the player is registered.",
+                "required": true,
+                "type": "STRING"
+            }, {
+                "name": "nick",
+                "description": "The nick of the player.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "minecrafthead",
+            "description": "🎮 Minecraft • Display the head from the skin of a player.",
+            "options": [{
+                "name": "nick",
+                "description": "The nickname of the player.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "minecraftprofile",
+            "description": "🎮 Minecraft • Display the profile of a player.",
+            "options": [{
+                "name": "nick",
+                "description": "The nickname of the player.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "minecraftprofile",
+            "description": "🎮 Minecraft • Display the skin of a player.",
+            "options": [{
+                "name": "nick",
+                "description": "The nickname of the player.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "clear",
+            "description": "🔨 Moderation • Clear a number of messages of a channel or user.",
+            "options": [{
+                "name": "number",
+                "description": "The number of messages that you want to delete.",
+                "required": true,
+                "type": "NUMBER"
+            }, {
+                "name": "user",
+                "description": "The user that you want to delete the messages, if you want.",
+                "required": false,
+                "type": "USER"
+            }]
+        },
+        {
+            "name": "lock",
+            "description": "🔨 Moderation • Lock a text or voice channel.",
+            "options": [{
+                "name": "channel",
+                "description": "The channel that you want to lock.",
+                "required": false,
+                "type": "CHANNEL"
+            }]
+        },
+        {
+            "name": "move",
+            "description": "🔨 Moderation • Move all the members from a voice or category channel to another.",
+            "options": [{
+                "name": "oldchannel",
+                "description": "The channel where the users are.",
+                "required": true,
+                "type": "CHANNEL"
+            }, {
+                "name": "newchannel",
+                "description": "The channel that you want to move the users.",
+                "required": true,
+                "type": "CHANNEL"
+            }]
+        },
+        {
+            "name": "trdelete",
+            "description": "🔨 Moderation • Delete all the temporary channels and move the members to a new channel, if you want.",
+            "options": [{
+                "name": "newchannel",
+                "description": "The channel that you want to move the users.",
+                "required": false,
+                "type": "CHANNEL" 
+            }]
+        },
+        {
+            "name": "unlock",
+            "description": "🔨 Moderation • Unlock a text or voice channel.",
+            "options": [{
+                "name": "channel",
+                "description": "The channel that you want to ulock.",
+                "required": false,
+                "type": "CHANNEL"
+            }]
+        },
+        {
+            "name": "presets",
+            "description": "🧷 Temporary Channels • Display your presets of temporary channels."
+        },
+        {
+            "name": "tradd",
+            "description": "🧷 Temporary Channels • Add an user or role in your channel.",
+            "options": [{
+                "name": "members",
+                "description": "The users or roles that you want to add.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "trblock",
+            "description": "🧷 Temporary Channels • Deny an user or role of join in your channel.",
+            "options": [{
+                "name": "members",
+                "description": "The users or roles that you want to block.",
+                "required": true,
+                "type": "STRING"
+            }, {
+                "name": "hide",
+                "description": "If you want to hide the channel from this members.",
+                "required": true,
+                "type": "BOOLEAN"
+            }]
+        },
+        {
+            "name": "tremove",
+            "description": "🧷 Temporary Channels • Remove an user or role from your channel.",
+            "options": [{
+                "name": "members",
+                "description": "The users or roles that you want to remove.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "tremoveadmin",
+            "description": "🧷 Temporary Channels • Remove an administrator from your channel.",
+            "options": [{
+                "name": "members",
+                "description": "The users or roles that you want to remove.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "trename",
+            "description": "🧷 Temporary Channels • Rename your channel.",
+            "options": [{
+                "name": "name",
+                "description": "The new name of the channel.",
+                "required": true,
+                "type": "STRING"
+            }]
+        }, 
+        {
+            "name": "trhide",
+            "description": "🧷 Temporary Channels • Remove the visibility from your channel."
+        },
+        {
+            "name": "trlock",
+            "description": "🧷 Temporary Channels • Lock your channel."
+        },
+        {
+            "name": "trsetadmin",
+            "description": "🧷 Temporary Channels • Add an user or role in your channel as administrator.",
+            "options": [{
+                "name": "members",
+                "description": "The users or roles that you want to add.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "trunblock",
+            "description": "🧷 Temporary Channels • Unblock an user or role from your channel.",
+            "options": [{
+                "name": "members",
+                "description": "The users or roles that you want to unblock.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "trunhide",
+            "description": "🧷 Temporary Channels • Add the visibility to your channel again."
+        },
+        {
+            "name": "trunlock",
+            "description": "🧷 Temporary Channels • Unlock your channel."
+        },
+        {
+            "name": "avatar",
+            "description": "📜 Utility • Display your or another user avatar.",
+            "options": [{
+                "name": "user",
+                "description": "The user that ou want to view the avatar.",
+                "required": false,
+                "type": "USER"
+            }]
+        },
+        {
+            "name": "serverinfo",
+            "description": "📜 Utility • Display the informations of this server."
+        },
+        {
+            "name": "userinfo",
+            "description": "📜 Utility • Display your or another user informations inside this server.",
+            "options": [{
+                "name": "user",
+                "description": "The user that you want to view the informations.",
+                "required": true,
+                "type": "USER"
+            }]
+        }
+    ]
+}

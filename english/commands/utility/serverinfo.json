@@ -8,9 +8,6 @@
         "usage": "/serverinfo",
         "examples": null
     },
-    "register": {
-        "description": "📜 Utility • Display the informations of this server."
-    },
     "embedFields": {
         "owner": "👑 Owner",
         "region": "🌎 Region",

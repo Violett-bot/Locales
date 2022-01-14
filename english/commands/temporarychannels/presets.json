@@ -8,9 +8,6 @@
         "usage": "/presets",
         "examples": null
     },
-    "register": {
-        "description": "🧷 Temporary Channels • Display your default configurations of temporary channels."
-    },
     "presetsNotFound": "You still don't have a profile of default configuration of temporary channels. Click on the reaction below if you want to create one.",
     "presetsCreated": "Your profile of configuration was created succesfully! Use the command again to configure your profile.",
     "presetsDeleted": "Your presets was deleted succesfully!",

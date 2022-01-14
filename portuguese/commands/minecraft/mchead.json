@@ -9,11 +9,5 @@
         "examples": [
             "/minecrafthead Weark - Mostra a cabeça da skin do jogador `Weark`."
         ]
-    },
-    "register": {
-        "description": "🎮 Minecraft • Mostra a cabeça de uma skin.",
-        "options": {
-            "nick": "O nickname do jogador."
-        }
     }
 }

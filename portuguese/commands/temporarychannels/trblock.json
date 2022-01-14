@@ -12,12 +12,5 @@
             "/trblock 919664522267070534 862740130385494027 286166598048284683 @naju - Todos esses membros serão bloqueados do seu canal."
         ]
     },
-    "register": {
-        "description": "🧷 Canais Temporários • Proíbe um usuário ou cargo de entrar no seu canal.",
-        "options": {
-            "members": "Os usuários e/ou cargos que você deseja bloquear.",
-            "hide": "Se você deseja esconder o canal do usuário."
-        }
-    },
     "membersBlocked": "Você bloqueou ${0} do seu canal! Para desbloqueá-lo(s), use **/trunblock**."
 }

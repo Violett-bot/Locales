@@ -11,11 +11,5 @@
             "/trename 트와이스 💖 - Changes the name of your channel to `트와이스 💖`"
         ]
     },
-    "register": {
-        "description": "🧷 Temporary Channels • Rename your channel.",
-        "options": {
-            "name": "The new name of the channel."
-        }
-    },
     "channelRenamed": "You renamed your channel to ${0}!"
 }

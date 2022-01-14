@@ -7,8 +7,5 @@
         "description": "Display your or another user's avatar.",
         "usage": "/avatar [user]",
         "examples": "/avatar @hiury - Display the avatar of the user `hiury`."
-    },
-    "register": {
-        "description": "📜 Utility • Display your or another user avatar."
     }
 }

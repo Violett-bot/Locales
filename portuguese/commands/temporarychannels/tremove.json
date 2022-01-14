@@ -12,11 +12,5 @@
             "/tremove 919664522267070534 862740130385494027 286166598048284683 @bieeu - Todos esses membros serão removidos do seu canal."
         ]
     },
-    "register": {
-        "description": "🧷 Canais Temporários • Remove um usuário ou cargo do seu canal.",
-        "options": {
-            "members": "Os usuarios e/ou cargos que você deseja remover."
-        }
-    },
     "membersRemoved": "Você removeu ${0} do seu canal!"
 }

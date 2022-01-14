@@ -12,12 +12,5 @@
             "/trblock 919664522267070534 862740130385494027 286166598048284683 @naju - All these members will be blocked from your channel."
         ]
     },
-    "register": {
-        "description": "🧷 Temporary Channels • Deny an user or role of join in your channel.",
-        "options": {
-            "members": "The users or roles that you want to block.",
-            "hide": "If you want to hide the channel from the user."
-        }
-    },
     "membersBlocked": "You blocked ${0} of from channel! To unblock them, use **/trunblock**."
 }

@@ -12,12 +12,6 @@
             "/lock 919664522267070534 - Lock the text channel of the ID `919664522267070534`."
         ]
     },
-    "register": {
-        "description": "🔨 Moderation • Lock a text or voice channel.",
-        "options": {
-            "channel": "The channel that you want to lock."
-        }
-    },
     "channelLocked": "The channel {0} was locked by {1}.",
     "unsuportedChannel": "Is only possible to lock and unlock text and voice channels."
 }

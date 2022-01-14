@@ -8,8 +8,5 @@
         "usage": "/trunhide",
         "examples": null
     },
-    "register": {
-        "description": "🧷 Temporary Channels • Add the visibility to your channel again"
-    },
     "channelUnhided": "You added the visibility to your channel again!"
 }

@@ -12,11 +12,5 @@
             "/trdelete #Putaria - Deleta todos os canais temporários e move os membros para o canal `Putaria`."
         ]
     },
-    "register": {
-        "description": "🔨 Moderação • Deleta todos os canais temporários e move os membros para outro canal, caso deseje.",
-        "options": {
-            "newchannel": "O canal para qual você deseja mover os usuários."
-        }
-    },
     "unsuportedChannel": "Só é possível mover os usuários para um canal de voz!"
 }

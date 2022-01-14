@@ -8,8 +8,5 @@
         "usage": "/trlock ",
         "examples": null
     },
-    "register": {
-        "description": "🧷 Temporary Channels • Lock your channel."
-    },
     "channelLocked": "You locked your channel! To unlock it, use **/trunlock**.\nIf you want the channel inaccessible only for a user or role, use **/trblock**."
 }

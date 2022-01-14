@@ -10,11 +10,5 @@
             "/changemylanguage portuguese - Changes my language to `portuguese` only to you."
         ]
     },
-    "register": {
-        "description": "⚙️ Configuration • Change my language only to you.",
-        "options": {
-            "language": "The language that you want."
-        }
-    },
     "languageChanged": "You changed my language to `{0}` only to you."
 }

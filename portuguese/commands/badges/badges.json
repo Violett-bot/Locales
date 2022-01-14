@@ -11,12 +11,6 @@
             "/badges @duda - Mostra as insígnias do usuário `duda`."
         ]
     },
-    "register": {
-        "description": "🔮 Insígnias • Mostra as suas insígnias ou as de outro usuário.",
-        "options": {
-            "user": "O usuário que você deseja ver as insígias."
-        }
-    },
     "anyBadge": "Você ainda não possui nenhuma insígnia, conquiste insígnias interagindo com o bot e a comunidade.",
     "alreadyHave": "Ups, eu acho que eu já te dei esse presente antes. Posso te dizer \"Te amo\" então? Te amo 💖.",
     "embed": {

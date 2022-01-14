@@ -12,11 +12,5 @@
             "/tremove 919664522267070534 862740130385494027 286166598048284683 @bieeu - All these members will be removed from your channel."
         ]
     },
-    "register": {
-        "description": "🧷 Temporary Channels • Remove an user or role from your channel.",
-        "options": {
-            "members": "The users or roles that you want to remove."
-        }
-    },
     "membersRemoved": "You removed ${0} from your channel!"
 }

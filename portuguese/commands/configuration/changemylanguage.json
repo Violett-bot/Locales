@@ -10,11 +10,5 @@
             "/changemylanguage portuguese - Altera minha língua para `português` somente para você."
         ]
     },
-    "register": {
-        "description": "⚙️ Configuração • Altera minha língua somente para você.",
-        "options": {
-            "language": "A língua que você deseja."
-        }
-    },
     "languageChanged": "Você alterou minha língua para `{0}` somente para você."
 }

@@ -8,8 +8,5 @@
         "usage": "/trhide",
         "examples": null
     },
-    "register": {
-        "description": "🧷 Temporary Channels • Remove the visibility from your channel."
-    },
     "channelHided": "You removed the visibility from your channel! Use **/trunhide** to add it again."
 }

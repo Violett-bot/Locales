@@ -12,11 +12,5 @@
             "/trunblock 919664522267070534 862740130385494027 286166598048284683 @naju - Todos esses membros serão desbloqueados do seu canal."
         ]
     },
-    "register": {
-        "description": "🧷 Canais Temporários • Desbloqueia um usuário ou cargo do seu canal.",
-        "options": {
-            "members": "Os usuários e/ou cargos que você deseja desbloquear."
-        }
-    },
     "membersUnblocked": "Você desbloqueou ${0} do seu canal!"
 }

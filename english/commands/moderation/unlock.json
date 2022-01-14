@@ -12,12 +12,6 @@
             "/unlock 919664522267070534 - Unlock the text channel of the ID `919664522267070534`."
         ]
     },
-    "register": {
-        "description": "🔨 Moderation • Unlock a text or voice channel.",
-        "options": {
-            "channel": "The channel that you want to ulock."
-        }
-    },
     "channelUnlocked": "The channel {0} was unlocked by {1}.",
     "unsuportedChannel": "Is only possible to lock and unlock text and voice channels."
 }

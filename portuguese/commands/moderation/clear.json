@@ -12,12 +12,6 @@
             "/clear 100 286166598048284683 - Deleta as últimas 100 mensagens do usuário de ID `286166598048284683`."
         ]
     },
-    "register": {
-        "description": "🔨 Moderação • Limpa as mensagens de um canal ou usuário.",
-        "options": {
-            "number": "O número de mensagens que você deseja deletar."
-        }
-    },
     "messagesDeleted": "{0} deletou {1} mensagens do canal ou usuário {2}.",
     "unsuportedChannel": "Só é possível limpar mensagens de canais de texto ou usuários."
 }

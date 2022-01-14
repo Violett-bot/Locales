@@ -11,13 +11,6 @@
             "/lolchecknick KR tching tchong - Check the disponibility time from the nick `tching tchong` in the `Korean` server."
         ]
     },
-    "register": {
-        "description": "🎮 League of Legends • Check a disponibility time from a nickname.",
-        "options": {
-            "server": "The server where the nick is registered.",
-            "nick": "The nick that you want to check."
-        }
-    },
     "doesntExist": "The nick **{0}** doesn't exist, this means that the nick is available to use.",
     "availableTime": "The nick **{0}** will be available in **{1}** days if continue inactive."
 }

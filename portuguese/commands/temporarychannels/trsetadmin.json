@@ -12,11 +12,5 @@
             "/trsetadmin 919664522267070534 862740130385494027 286166598048284683 @flash - Todos esses membros serão adicionados ao seu canal como administrador."
         ]
     },
-    "register": {
-        "description": "🧷 Canais Temporários • Adiciona um usuário ou cargo no seu canal como administrador.",
-        "options": {
-            "member": "Os usuários e/ou cargos que você deseja remover."
-        }
-    },
     "administratorsAdded": "Você adicionou ${0} como administrador no seu canal. Para removê-los, use **/tremoveadmin**."
 }

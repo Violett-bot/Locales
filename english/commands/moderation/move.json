@@ -12,12 +12,5 @@
             "/move 922257017828175942 913499995985047612 - Move all the members from the channel of ID `922257017828175942` to the channel of ID `913499995985047612`."
         ]
     },
-    "register": {
-        "description": "🔨 Moderation • Move all the members from a voice channel or category to another.",
-        "options": {
-            "oldchannel": "The channel where the users are.",
-            "newchannel": "The channel that you want to move the users."
-        }
-    },
     "unsuportedChannel": "Is only possible to move the users to/from a voice channel!"
 }

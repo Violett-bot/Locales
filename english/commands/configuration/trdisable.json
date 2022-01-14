@@ -8,9 +8,6 @@
         "usage": "/trdisable",
         "examples": null
     },
-    "register": {
-        "description": "⚙️ Configuration • Disable the temporary channels system in this server."
-    },
     "setupSystem": "Temporary channels system disabled succesfully!",
     "alreadyActivated": "The temporary channels system is not enabled. To enable it, use **/trsetup**."
 }

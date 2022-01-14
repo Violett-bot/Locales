@@ -8,9 +8,6 @@
         "usage": "/trsetup",
         "examples": null
     },
-    "register": {
-        "description": "⚙️ Configuração • Ativa o sistema de canais temporários neste servidor."
-    },
     "setupSystem": "Sistema de canais temporários ativado com sucesso!",
     "alreadyActivated": "O sistema de canais temporários já está ativado. Se você deseja outra instância de canais temporários, compre premium: <em breve>"
 }

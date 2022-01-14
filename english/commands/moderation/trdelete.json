@@ -12,11 +12,5 @@
             "/trdelete #Party - Delete all the temporary channels and move all the users to the channel `Party`."
         ]
     },
-    "register": {
-        "description": "🔨 Moderation • Delete all the temporary channels and move the members to a new channel, if you want.",
-        "options": {
-            "newchannel": "The channel that you want to move the users."
-        }
-    },
     "unsuportedChannel": "Is only possible to move the users to a voice channel!"
 }

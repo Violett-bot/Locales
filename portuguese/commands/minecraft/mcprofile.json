@@ -10,12 +10,6 @@
             "/minecraftprofile Smilezera - Mostra o perfil do jogador `Smilezera`."
         ]
     },
-    "register": {
-        "description": "🎮 Minecraft • Mostra um perfil de um jogador.",
-        "options": {
-            "nick": "O nickname do jogador." 
-        }
-    },
     "embed": {
         "title": "Perfil no Minecraft",
         "download": "Baixar Skin",

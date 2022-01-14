@@ -12,12 +12,6 @@
             "/lock 919664522267070534 - Tranca o canal de texto de ID `919664522267070534`."
         ]
     },
-    "register": {
-        "description": "🔨 Moderação • Tranca um canal de texto ou voz.",
-        "options": {
-            "channel": "O canal que você deseja trancar."
-        }
-    },
     "channelLocked": "O canal {0} foi trancado por {1}.",
     "unsuportedChannel": "Só é possível trancar e destrancar canais de texto ou voz."
 }

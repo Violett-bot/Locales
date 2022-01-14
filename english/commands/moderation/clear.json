@@ -12,13 +12,6 @@
             "/clear 100 286166598048284683 - Delete the last `100` messages of the user of ID `286166598048284683`."
         ]
     },
-    "register": {
-        "description": "🔨 Moderation • Clear a number of messages of a channel or user.",
-        "options": {
-            "number": "The number of messages that you want to delete.",
-            "user": "The user that you want to delete the messages, if you want."
-        }
-    },
     "messagesDeleted": "{0} have deleted {1} messages of {2}.",
     "unsuportedChannel": "Is only possible to clear messages of text channels or users."
 }

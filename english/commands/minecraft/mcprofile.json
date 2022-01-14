@@ -10,12 +10,6 @@
             "/minecraftprofile Smilezera - Display the profile of the player `Smilezera`."
         ]
     },
-    "register": {
-        "description": "🎮 Minecraft • Display a profile of a player.",
-        "options": {
-            "nick": "The nickname of the player." 
-        }
-    },
     "embed": {
         "title": "Minecraft profile",
         "download": "Download skin",

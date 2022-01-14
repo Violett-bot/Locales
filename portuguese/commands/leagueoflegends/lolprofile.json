@@ -11,13 +11,6 @@
             "/lolprofile KR Faker - Mostra o perfil do jogador `Faker` no servidor `Coreano`."
         ]
     },
-    "register": {
-        "description": "🎮 League of Legends • Mostra o perfil de um jogador.",
-        "options": {
-            "user": "O servidor onde o jogador está registrado.",
-            "username": "O nick do jogador."
-        }
-    },
     "lastGames": "Últimos jogos",
     "levelRegion": "Level/Região",
     "topMastery": "Campeões com mais maestria",

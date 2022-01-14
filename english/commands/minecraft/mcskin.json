@@ -9,11 +9,5 @@
         "examples": [
             "/minecraftskin yShad - Get the skin of the player `yShad`."
         ]
-    },
-    "register": {
-        "description": "🎮 Minecraft • Display a skin of a player.",
-        "options": {
-            "nick": "The nickname of the player."
-        }
     }
 }

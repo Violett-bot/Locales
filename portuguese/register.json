@@ -1,0 +1,299 @@
+{
+    "Register": [
+        {
+            "name": "badges",
+            "description": "🔮 Insígnias • Mostra as suas insígnias ou a de outro usuário.",
+            "options": [{
+                "name": "usuario",
+                "description": "O usuário que você deseja ver as insígnias.",
+                "required": false,
+                "type": "USER" 
+            }]
+        },
+        {
+            "name": "getbadge",
+            "description": "🔮 Insígnias • Adiciona uma nova insígnia ao seu inventário."
+        },
+        {
+            "name": "changelanguage",
+            "description": "⚙️ Configuração • Altera minha língua nesse servidor.",
+            "options": [{
+                "name": "lingua",
+                "description": "A língua que você deseja.",
+                "required": true,
+                "type": "STRING",
+                "choices": [{
+                    "name": "português",
+                    "value": "portuguese"
+                }, {
+                    "name": "inglês",
+                    "value": "english"
+                }]
+            }]
+        },
+        {
+            "name": "changemylanguage",
+            "description": "⚙️ Configuração • Altera minha língua somente para você.",
+            "options": [{
+                "name": "lingua",
+                "description": "A língua que você deseja.",
+                "required": true,
+                "type": "STRING",
+                "choices": [{
+                    "name": "português",
+                    "value": "portuguese"
+                }, {
+                    "name": "inglês",
+                    "value": "english"
+                }]
+            }]
+        },
+        {
+            "name": "trdisable",
+            "description": "⚙️ Configuração • Desabilita o sistema de canais temporários nesse servidor."
+        },
+        {
+            "name": "trsetup",
+            "description": "⚙️ Configuração • Ativa o sistema de canais temporários nesse servidor."
+        },
+        {
+            "name": "lolchecknick",
+            "description": "🎮 League of Legends • Mostra o tempo de disponibilidade de um nick.",
+            "options": [{
+                "name": "servidor",
+                "description": "O servidor onde o nick está registrado.",
+                "required": true,
+                "type": "STRING"
+            }, {
+                "name": "nick",
+                "description": "O nick que você deseja ver.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "lolprofile",
+            "description": "🎮 League of Legends • Mostra um perfil de um jogador.",
+            "options": [{
+                "name": "servidor",
+                "description": "O servidor onde o jogador está registrado.",
+                "required": true,
+                "type": "STRING"
+            }, {
+                "name": "nick",
+                "description": "O nick do jogador.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "minecrafthead",
+            "description": "🎮 Minecraft • Mostra a cabeça da skin de um jogador.",
+            "options": [{
+                "name": "nick",
+                "description": "O nick do jogador.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "minecraftprofile",
+            "description": "🎮 Minecraft • Mostra o perfil de um jogador.",
+            "options": [{
+                "name": "nick",
+                "description": "O nick do jogador.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "minecraftskin",
+            "description": "🎮 Minecraft • Mostra a skin de um jogador.",
+            "options": [{
+                "name": "nick",
+                "description": "O nick do jogador.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "clear",
+            "description": "🔨 Moderação • Limpa um número de mensagens de um canal ou usuário.",
+            "options": [{
+                "name": "numero",
+                "description": "O número de mensagens que você deseja deletar.",
+                "required": true,
+                "type": "NUMBER"
+            }, {
+                "name": "usuario",
+                "description": "O usuário que você deseja deletar as mensagens, caso queira.",
+                "required": false,
+                "type": "USER"
+            }]
+        },
+        {
+            "name": "lock",
+            "description": "🔨 Moderação • Tranca um canal de voz ou texto.",
+            "options": [{
+                "name": "canal",
+                "description": "O canal que você deseja trancar.",
+                "required": false,
+                "type": "CHANNEL"
+            }]
+        },
+        {
+            "name": "move",
+            "description": "🔨 Moderação • Move todos os membros de um canal de voz ou categoria para outro.",
+            "options": [{
+                "name": "canalantigo",
+                "description": "O canal onde os membros estão.",
+                "required": true,
+                "type": "CHANNEL"
+            }, {
+                "name": "canalnovo",
+                "description": "O canal para qual você quer mover os usuários.",
+                "required": true,
+                "type": "CHANNEL"
+            }]
+        },
+        {
+            "name": "trdelete",
+            "description": "🔨 Moderação • Deleta todos os canais temporários e move os membros para um novo canal, caso queira.",
+            "options": [{
+                "name": "canalnovo",
+                "description": "O canal para qual você quer mover os usuários.",
+                "required": false,
+                "type": "CHANNEL" 
+            }]
+        },
+        {
+            "name": "unlock",
+            "description": "🔨 Moderação • Destranca um canal de voz ou texto.",
+            "options": [{
+                "name": "canal",
+                "description": "O canal que você deseja destrancar.",
+                "required": false,
+                "type": "CHANNEL"
+            }]
+        },
+        {
+            "name": "presets",
+            "description": "🧷 Canais Temporários • Mostra suas predefinições de canais temporários."
+        },
+        {
+            "name": "tradd",
+            "description": "🧷 Canais Temporários • Adiciona um usuário ou cargo ao seu canal.",
+            "options": [{
+                "name": "membros",
+                "description": "Os usuários e/ou cargos que você deseja adicionar.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "trblock",
+            "description": "🧷 Canais Temporários • Proíbe um usuário ou cargo de entrar no seu canal.",
+            "options": [{
+                "name": "membros",
+                "description": "Os usuários e/ou cargos que você deseja bloquear.",
+                "required": true,
+                "type": "STRING"
+            }, {
+                "name": "esconder",
+                "description": "Se você deseja esconder o canal desses membros.",
+                "required": true,
+                "type": "BOOLEAN"
+            }]
+        },
+        {
+            "name": "tremove",
+            "description": "🧷 Canais Temporários • Remove um usuário ou cargo do seu canal.",
+            "options": [{
+                "name": "membros",
+                "description": "Os usuários e/ou cargos que você deseja remover.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "tremoveadmin",
+            "description": "🧷 Canais Temporários • Remove um administrador do seu canal.",
+            "options": [{
+                "name": "membros",
+                "description": "Os usuários e/ou cargos que você deseja remover.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "trename",
+            "description": "🧷 Canais Temporários • Renomeia o seu canal.",
+            "options": [{
+                "name": "nome",
+                "description": "O novo nome do canal.",
+                "required": true,
+                "type": "STRING"
+            }]
+        }, 
+        {
+            "name": "trhide",
+            "description": "🧷 Canais Temporários • Remove a visibilidade do seu canal."
+        },
+        {
+            "name": "trlock",
+            "description": "🧷 Canais Temporários • Tranca o seu canal."
+        },
+        {
+            "name": "trsetadmin",
+            "description": "🧷 Canais Temporários • Adiciona um usuário ou cargo como administrador ao seu canal.",
+            "options": [{
+                "name": "membros",
+                "description": "Os usuários e/ou cargos que você deseja adicionar.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "trunblock",
+            "description": "🧷 Canais Temporários • Desbloqueia um usuário ou cargo do seu canal.",
+            "options": [{
+                "name": "membros",
+                "description": "Os usuários e/ou cargos que você deseja desbloquear.",
+                "required": true,
+                "type": "STRING"
+            }]
+        },
+        {
+            "name": "trunhide",
+            "description": "🧷 Canais Temporários • Adiciona a visibilidade ao seu canal novamente."
+        },
+        {
+            "name": "trunlock",
+            "description": "🧷 Canais Temporários • Destranca o seu canal."
+        },
+        {
+            "name": "avatar",
+            "description": "📜 Utilidade • Mostra o seu avatar ou o de outro usuário.",
+            "options": [{
+                "name": "usuario",
+                "description": "O usuário que você deseja ver o avatar.",
+                "required": false,
+                "type": "USER"
+            }]
+        },
+        {
+            "name": "serverinfo",
+            "description": "📜 Utilidade • Mostra as informações deste servidor."
+        },
+        {
+            "name": "userinfo",
+            "description": "📜 Utilidade • Mostra as suas informações nesse servidor ou a de outro usuário.",
+            "options": [{
+                "name": "usuario",
+                "description": "O usuário que você deseja ver as informações.",
+                "required": true,
+                "type": "USER"
+            }]
+        }
+    ]
+}
